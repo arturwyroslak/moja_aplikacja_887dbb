@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Graphic Designer Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate graphic designer with years of experience in creating stunning visuals. I specialize in branding, web design, and illustration. My work is driven by a combination of creativity and strategic thinking, resulting in designs that captivate and engage audiences.</p>
+  </section>
+  
+  <section id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="project">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="project">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <!-- Add more project divs here -->
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to discuss a project or have any questions, please feel free to reach out to me using the contact form below or by email.</p>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2021 John Doe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
